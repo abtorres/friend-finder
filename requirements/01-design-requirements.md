@@ -22,4 +22,4 @@ These are high-level requirements to translate into more low-level, functional r
 -   User can specify matches should be restricted by geolocation
 -   User can receive suggested activities based on interest and what's available locally
 
-_Additional stretch ideas?_
+*Additional stretch ideas?*

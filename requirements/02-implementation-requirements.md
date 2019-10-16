@@ -4,9 +4,9 @@ These determine the more detailed features necessary to implement design require
 
 -   **Design requirement:** user can create account
     -   User clicks through to register page
-        -   link/button on website _OR_
+        -   link/button on website *OR*
         -   link on login page
-    -   User enters information in form _OR_
+    -   User enters information in form *OR*
     -   User connects to OAuth provider (e.g. Facebook)
     -   User confirms and submits information
     -   User can login to and logout of app once account is created
@@ -14,7 +14,7 @@ These determine the more detailed features necessary to implement design require
     -   User is redirected to onboarding process
     -   User receives email from the system to confirm membership
     -   User must visit confirm URL in email within 72 hours or account is suspended
-        -   _Just for email registrations?_
+        -   *Just for email registrations?*
     -   User sees confirmation reminder upon logging in if not confirmed yet
     -   User account is verified upon visiting confirm URL
 -   **Design requirement:** user will be guided through onboarding process
