@@ -5,7 +5,9 @@ These are high-level requirements to translate into functional requirements
 ## MVP
 
 -   User can create account
--   User will be guided through onboarding process to educate about product and encourage retention
+-   User will be guided through onboarding process
+    -   educate about product
+    -   encourage retention
 -   User will take survey for matching purposes
 -   User can view other users and see match score
 -   User can match with/move on from other users
