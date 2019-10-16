@@ -1,0 +1,63 @@
+# Design requirements
+
+These determine the more detailed features necessary to implement design requirements.
+
+-   **Design requirement:** user can create account
+    -   User clicks through to register page
+        -   link/button on website _OR_
+        -   link on login page
+    -   User enters information in form _OR_
+    -   User connects to OAuth provider (e.g. Facebook)
+    -   User confirms and submits information
+    -   User can login to and logout of app once account is created
+    -   User is automatically logged in upon registration
+    -   User is redirected to onboarding process
+    -   User receives email from the system to confirm membership
+    -   User must visit confirm URL in email within 72 hours or account is suspended
+        -   _Just for email registrations?_
+    -   User sees confirmation reminder upon logging in if not confirmed yet
+    -   User account is verified upon visiting confirm URL
+-   **Design requirement:** user will be guided through onboarding process
+    -   User will receive brief tour of app
+        -   Explanation for all UI controls
+        -   Educate on how to use app features
+        -   Give recommendations for best practices
+        -   Good onboarding leads to greater user satisfaction and retention
+    -   User will be prompted to fill out more profile information
+        -   This information will be visible to prospective matches
+-   **Design Requirement:** user will take survey for matching purposes
+    -   User fills out survey form
+        -   Answer  questions
+        -   Indicate importance of each question
+    -   User will be assigned a score for match comparison
+    -   User must answer a minimum number of questions
+    -   User can answer more questions immediately or later
+-   **Design Requirement:** user can view other users and see match score
+    -   User will see carousel with other users' pictures and information
+    -   User will see match score with other user
+    -   User will see categories of common interest, if any exist
+    -   User can also see match information when visiting another user's profile directly
+-   **Design Requirement:** user can match with or move on from other users
+    -   User can click match button or swipe right to match
+    -   Click move on button or swipe left to reject
+    -   User can unmatch as needed - matches aren't indelible
+    -   Matching or rejecting another user removes them from appearing in carousel view
+    -   Can still view profile directly?
+-   **Design Requirement:** user matching with another triggers an automatic message to the other
+    -   Message should be customizable
+    -   Message is not optional - refusing to send will cancel match
+-   **Design Requirement:** user can view other users they've matched with
+    -   Profile tabs for matches and mutual matches
+    -   If someone rejects you, should they vanish from your matched tab?
+    -   Option to reciprocate match or reject
+-   **Design Requirement:** user can chat with mutual messages
+    -   Automated match message starts new inbox conversation
+    -   Can continue conversation as long as needed
+    -   Can initiate meetup invitation from message view
+-   **Design Requirement:** user can schedule a meetup with match
+    -   Create invitation for match inside app with relevant information
+    -   Option to invite multiple matches?
+    -   Send invite message(s)
+-   **Design Requirement:** user can choose a time and place for meetup
+    -   Interact with a map or directory API that returns location data
+    -   Can integrate with calendar app to schedule, send calendar invite to match
